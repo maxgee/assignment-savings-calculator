@@ -18,12 +18,9 @@ for(i = 1;i <= numOfYears;i++){
 document.getElementById("results_table").innerHTML = "<table><tr><th>Year</th><th>Intrest</th><th>Balance</th></tr><tbody>"+tabelContent+"</tbody></table>";
 }
 
-
-
-
-
-
-
 function reset(){
 document.getElementById("results_table").innerHTML ="";
+ document.getElementById("ammount").value = "";
+ document.getElementById("rate").value = "";
+ document.getElementById("years").value = "";
 }
